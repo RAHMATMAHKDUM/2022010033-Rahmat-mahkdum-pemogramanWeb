@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap Animation Example</title>
+
+  <!-- Tambahkan link CSS Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <style>
+    /* Menambahkan aturan CSS kustom untuk animasi */
+    .rotate-on-hover {
+      transition: transform 0.5s; /* Menetapkan waktu transisi */
+    }
+
+    .rotate-on-hover:hover {
+      transform: rotate(360deg); /* Menetapkan transformasi yang ingin dijalankan saat dihover */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Tombol dengan animasi -->
+  <button type="button" class="btn btn-primary rotate-on-hover">Rotate Me!</button>
+
+  <!-- Tambahkan script JavaScript Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-U6a9QydJ2DvqUZ/xzib1V3iui0KvH2Vq9aYBhU5JAcV2FLG/Ae5lg7ALIybcMP1F" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-Jk4qQeBQ7lp3rdqVcChWNuE+9aw9tka4NgbxhKe0zcd5Ut4KpRpaW/Qdj4D2mjPW" crossorigin="anonymous"></script>
+</body>
+</html>
